@@ -1,0 +1,1 @@
+$(function(){var t=getQueryString("email"),i=getQueryString("secret"),n;getQueryString("action")==="unsubscribe"&&t!==""&&i!==""&&(n=new NotificationCenter,n.confirm(newsletterLanguage.Text,{ok:function(){$.get("/api/newsletter/unsubscribe",{secret:i,email:t},function(){n.success(newsletterLanguage.Success,"",newsletterLanguage.Title)})}},"",newsletterLanguage.Title))})

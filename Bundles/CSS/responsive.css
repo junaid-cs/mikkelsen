@@ -1,0 +1,63 @@
+/* General styles for the header */
+.logo-container, .navigation-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation-container {
+    justify-content: flex-end;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .logo-container {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navigation-container {
+      width: 100%;
+      justify-content: center;
+      order: 3;
+    }
+  
+    .menu-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+  
+    .menu-wrapper ul.level1 {
+      width: 100%;
+    }
+  
+    .menu-wrapper ul.level1 > li {
+      width: 100%;
+      text-align: left;
+    }
+  
+    .custom16 {
+      order: 2;
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .custom15 {
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Hide the logo and contact button below the toggle icon */
+  @media (max-width: 480px) {
+    .logo-container, .custom16 {
+      display: none;
+    }
+  
+    .navigation-container {
+      order: 1;
+    }
+  }
+  

@@ -1,0 +1,1 @@
+(function(n,t,i){i(t).on("click","#cookieOkBtn",function(){i.cookie("EuCookie","EU",{expires:36500,path:"/"});i("#cookie_box").hide()})})(window,document,jQuery)
