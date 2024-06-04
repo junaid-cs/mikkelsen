@@ -840,7 +840,7 @@ html, .DefaultBody {
 	}
 	.custom107 {
 		background-image: url('../templates/1/iphone-x.png');
-		min-height: 550px;
+		min-height: 550px !important;
 		padding: 3.845rem 0 0 0;
 	}
 	.custom12 {
