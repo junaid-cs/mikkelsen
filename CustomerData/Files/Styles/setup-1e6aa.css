@@ -1130,7 +1130,7 @@ html, .DefaultBody {
 	padding: 10px 15px 10px 15px;
 }
 .gallery-image {
-	margin: 0.769rem 0.769rem 0.769rem 0.769rem;
+	margin: 0.4rem;
 }
 .gallery-image.regular {
 	height: 190px;

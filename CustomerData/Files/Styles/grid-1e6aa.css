@@ -178,7 +178,7 @@ body {
 		margin-left: 25%;
 	}
 	.block-grid-step-3-3 > li, .block-grid-step-mobile-3 > li {
-		width: 25%;
+		width: 27%;
 		padding: 0;
 		list-style: none;
 	}
@@ -577,7 +577,7 @@ ul#level2 {
 		margin-left: 25%;
 	}
 	.block-grid-step-2-3 > li, .block-grid-step-tablet-3 > li {
-		width: 25%;
+		width: 27%;
 		padding: 0;
 		list-style: none;
 	}
