@@ -1019,3 +1019,41 @@ ul#level2 {
 		list-style: none;
 	}
 }
+
+
+@media screen and (max-width:767px) {
+	.block-grid-step-3-6 > li, .block-grid-step-mobile-6 > li {
+		width: 49%;
+		padding: 0;
+		list-style: none;
+	}
+	.gallery-image {
+		margin: 0.4rem;
+		height: 393px !important;
+	}
+	.block-grid li div a, .block-grid li div img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center center;
+		display: block;
+	}
+}
+@media screen and (max-width:480px) {
+	.block-grid-step-3-6 > li, .block-grid-step-mobile-6 > li {
+		width: 100%;
+		padding: 0;
+		list-style: none;
+	}
+	.gallery-image {
+		margin: 0.4rem;
+		height: 393px !important;
+	}
+	.block-grid li div a, .block-grid li div img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		object-position: center center;
+		display: block;
+	}
+}
