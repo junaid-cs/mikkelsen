@@ -828,6 +828,21 @@ html, .DefaultBody {
 	-o-transition-property: color;
 	transition-property: color;
 }
+@media only screen and (max-width: 959px)  {
+	.custom50.custom51{
+		margin: 100% 0 0 0 !important;
+
+	}
+	.custom50 {
+        background-position: center top -100px ;
+		background-size: contain;
+	}
+	.custom67.custom68{
+		margin: 100% 0 0 0 !important;
+
+	
+	}
+}
 @media only screen and (min-width: 768px)  {
 	.custom1, body {
 		font-size: 15px;
